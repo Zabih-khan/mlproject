@@ -34,15 +34,8 @@ setup(
 
 
 
-
-
 """
-setup() is like a special tool that comes with a Python package called "setuptools." It helps you manage and share your Python programs with others easily.
-
-Imagine you made a cool program using Python, and you want to share it with your friends or even the whole world! Well, that's where setup() comes in. It helps you prepare your program so that people can install it on their own computers and use it.
-
-To get your program ready for sharing, you create a special file called "setup.py." In this file, you use the setup() tool to tell Python some important things about your program, like its name, version, what it does, and even what other programs it needs to work.
-
+The setup.py file is an important part of building and distributing Python packages, as it contains the necessary information for building and installing your package. By using the pip tool and the setup.py file, you can easily share your Python packages with others and make them available for use in their own projects.
 """
 
 
