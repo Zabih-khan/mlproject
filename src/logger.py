@@ -25,3 +25,12 @@ logging.basicConfig(
 # Set up the logging configuration using logging.basicConfig() to define the log file, format, and log level.
 
 
+
+"""
+==> logging is useful to track the error and exception or information. 
+==> logger.py is used to track events that occure in software when its run. 
+==> it is used in developement, debugging, testing etc
+
+
+
+"""
