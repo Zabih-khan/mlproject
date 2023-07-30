@@ -150,6 +150,9 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+# Ignoring the artifacts directory
+artifacts/
+
 # Cython debug symbols
 cython_debug/
 
