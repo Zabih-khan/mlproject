@@ -151,7 +151,7 @@ dmypy.json
 .pytype/
 
 # Ignoring the artifacts directory
-artifacts/
+.artifacts/
 
 # Cython debug symbols
 cython_debug/
