@@ -152,7 +152,8 @@ dmypy.json
 
 # Ignoring the artifacts directory
 .artifacts/
-
+.artifacts
+.artifacts/
 # Cython debug symbols
 cython_debug/
 
