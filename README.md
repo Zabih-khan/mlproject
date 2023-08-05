@@ -27,7 +27,7 @@ Target variable:
 
 # Screenshot of UI
 
-![HomepageUI](./Screenshots/HomepageUI.jpg)
+![HomepageUI](./static/images/screenshot_UI.png)
 
 
 
