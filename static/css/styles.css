@@ -1,0 +1,139 @@
+/* Set the basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d0e0f0;
+    background-image: url('../images/bg.jpg'); /* Adjust the path as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Styling for the login container */
+.login {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3)); /* Gradient background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border-color: #007bff;
+    border-style: solid;
+    
+}
+
+
+/* Styling for the heading within the login container */
+.login h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add text shadow for depth */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Styling for form labels */
+.form-label {
+    font-weight: bold;
+}
+
+/* Styling for form input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.2s;
+}
+
+/* Styling for focused form input fields */
+.form-control:focus {
+    border-color: #007bff;
+}
+
+/* Styling for the primary button */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px; /* Slightly increased padding for a more comfortable click */
+    border: none;
+    border-radius: 30px; /* Increased border-radius for a rounded button */
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s, transform 0.2s; /* Added transition for transform property */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* Styling for the primary button on hover */
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slight scale increase on hover */
+}
+
+/* Styling for the results container */
+.results {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity value (0.7) as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #007bff;
+    border-style: double;
+    background: linear-gradient(135deg, #d7e9fa, #e6ecf3);
+}
+
+/* Styling for the horizontal fields layout */
+.horizontal-fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* Styling for form groups within horizontal fields */
+.horizontal-fields .form-group {
+    width: calc(50% - 10px);
+}
+
+/* Styling for full-width form groups within horizontal fields */
+.horizontal-fields .form-group.full-width {
+    width: 100%;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .login {
+        padding: 20px;
+    }
+
+    .form-control {
+        padding: 8px;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login {
+        padding: 15px;
+    }
+
+    .horizontal-fields .form-group {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
