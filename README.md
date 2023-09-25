@@ -4,7 +4,7 @@
 **Problem Statement** 
 - This project understands how the student's performance (`test Score`) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch and Test preparation course.
 
-#### Life cycle of Machine learning Project
+#### Life cycle of Machine Learning Project
 
 - Understanding the Problem Statement
 - Data Collection
@@ -12,16 +12,15 @@
 - Exploratory data analysis
 - Data Pre-Processing
 - Model Training
-- Choose best model
+- Choose the best model
 
 
 
-### Data Collection
-- Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
-- The data consists of 8 column and 1000 rows.
+### Data 
+- The data consists of 8 columns and 1000 rows.
 
 Target variable:
-* `math score`: math score of the student is Target variable.
+* `math score`: The math score of the student is the Target variable.
 
 
 
@@ -34,7 +33,7 @@ Target variable:
 # Approach for the project 
 
 1. Data Ingestion : 
-    * In Data Ingestion phase the data is first read as csv. 
+    * In the Data Ingestion phase the data is first read as CSV. 
     * Then the data is split into training and testing and saved as csv file.
 
 2. Data Transformation : 
